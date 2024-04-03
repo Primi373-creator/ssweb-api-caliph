@@ -4,7 +4,7 @@ const { fromBuffer } = require("file-type");
 const crypt = require('crypto');
 const uploadFiles = require('../lib/uploadFile');
 const {browserPuppeteer} = require('../index');
-const creator = "Cakrayp & Caliph";
+const creator = "Cipher";
 
 const randomArr = (arr = []) => {
     return arr[Math.floor(Math.random() * arr.length)];
